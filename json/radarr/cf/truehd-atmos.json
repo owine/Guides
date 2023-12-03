@@ -1,6 +1,10 @@
 {
   "trash_id": "496f355514737f7d83bf7aa4d24f8169",
-  "trash_score": "5000",
+  "trash_scores": {
+    "default": 5000,
+    "sqp-1-1080p": -10000,
+    "sqp-1-2160p": -10000
+  },
   "name": "TrueHD ATMOS",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
@@ -23,6 +27,15 @@
       }
     },
     {
+      "name": "Not Basic Dolby Digital",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": true,
+      "required": true,
+      "fields": {
+        "value": "\\bDD[^a-z+]|(?<!e)ac3"
+      }
+    },
+    {
       "name": "Not Dolby Digital Plus ",
       "implementation": "ReleaseTitleSpecification",
       "negate": true,
@@ -41,12 +54,12 @@
       }
     },
     {
-      "name": "Not Basic Dolby Digital",
+      "name": "Not DTS X",
       "implementation": "ReleaseTitleSpecification",
       "negate": true,
       "required": true,
       "fields": {
-        "value": "\\bDD[^a-z+]|(?<!e)ac3"
+        "value": "\\b(dts[-_. ]?x)\\b(?!\\d)"
       }
     },
     {

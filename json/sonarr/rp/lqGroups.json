@@ -4,9 +4,9 @@
   "includePreferredWhenRenaming": false,
   "required": [],
   "preferred": [{
-    "score": -100,
+    "score": -10000,
     "terms": [
-      "/(TBS|-BRiNK|-CHX|-XLF|-worldmkv|-GHOSTS|-VIDEOHOLE|nhanc3|Pahe\\.ph|Pahe\\.in|-NERO)\\b/i"
+      "/(-BRiNK|-CHX|-CTFOH|-d3g|-EVO|-FGT|-GHOSTS|-HiQVE|-iNTENSO|JFF|MeGusta|-NERO|nhanc3|Pahe\\.ph|Pahe\\.in|Pahe|PSA|TBS|-TG|-VIDEOHOLE|-worldmkv|-XLF|-Zero00)\\b/i"
     ]
   }],
   "ignored": []

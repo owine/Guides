@@ -1,6 +1,9 @@
 {
   "trash_id": "58790d4e2fdcd9733aa7ae68ba2bb503",
-  "trash_score": "1650",
+  "trash_scores": {
+    "default": 1650,
+    "anime-sonarr": 150
+  },
   "name": "WEB Tier 02",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
@@ -10,7 +13,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(3cTWeB)\\b"
+        "value": "^(3cTWeB)$"
       }
     },
     {
@@ -19,16 +22,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(BLUTONiUM)\\b"
-      }
-    },
-    {
-      "name": "BTN",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(BTN)\\b"
+        "value": "^(BLUTONiUM)$"
       }
     },
     {
@@ -37,7 +31,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(BTW)\\b"
+        "value": "^(BTW)$"
       }
     },
     {
@@ -46,7 +40,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(Chotab)\\b"
+        "value": "^(Chotab)$"
       }
     },
     {
@@ -55,7 +49,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(Cinefeel)\\b"
+        "value": "^(Cinefeel)$"
       }
     },
     {
@@ -64,7 +58,16 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(CiT)\\b"
+        "value": "^(CiT)$"
+      }
+    },
+    {
+      "name": "CMRG",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(CMRG)$"
       }
     },
     {
@@ -73,7 +76,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(Coo7)\\b"
+        "value": "^(Coo7)$"
       }
     },
     {
@@ -82,7 +85,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(dB)\\b"
+        "value": "^(dB)$"
       }
     },
     {
@@ -91,7 +94,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(DEEP)\\b"
+        "value": "^(DEEP)$"
       }
     },
     {
@@ -100,7 +103,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(END)\\b"
+        "value": "^(END)$"
       }
     },
     {
@@ -109,7 +112,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(ETHiCS)\\b"
+        "value": "^(ETHiCS)$"
       }
     },
     {
@@ -118,7 +121,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(FC)\\b"
+        "value": "^(FC)$"
       }
     },
     {
@@ -127,7 +130,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(Flights)\\b"
+        "value": "^(Flights)$"
       }
     },
     {
@@ -136,7 +139,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(GNOME)\\b"
+        "value": "^(GNOME)$"
       }
     },
     {
@@ -145,7 +148,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(iJP)\\b"
+        "value": "^(iJP)$"
       }
     },
     {
@@ -154,7 +157,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(iKA)\\b"
+        "value": "^(iKA)$"
       }
     },
     {
@@ -163,7 +166,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(iT00NZ)\\b"
+        "value": "^(iT00NZ)$"
       }
     },
     {
@@ -172,7 +175,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(JETIX)\\b"
+        "value": "^(JETIX)$"
       }
     },
     {
@@ -181,7 +184,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(KHN)\\b"
+        "value": "^(KHN)$"
       }
     },
     {
@@ -190,7 +193,16 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(KiMCHI)\\b"
+        "value": "^(KiMCHI)$"
+      }
+    },
+    {
+      "name": "Kitsune",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(Kitsune)$"
       }
     },
     {
@@ -199,7 +211,16 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(LAZY)\\b"
+        "value": "^(LAZY)$"
+      }
+    },
+    {
+      "name": "MiU",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(MiU)$"
       }
     },
     {
@@ -208,7 +229,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(MZABI)\\b"
+        "value": "^(MZABI)$"
       }
     },
     {
@@ -217,7 +238,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(NPMS)\\b"
+        "value": "^(NPMS)$"
       }
     },
     {
@@ -226,7 +247,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(NYH)\\b"
+        "value": "^(NYH)$"
       }
     },
     {
@@ -235,7 +256,16 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(orbitron)\\b"
+        "value": "^(orbitron)$"
+      }
+    },
+    {
+      "name": "PHOENiX",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(PHOENiX)$"
       }
     },
     {
@@ -244,7 +274,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(playWEB)\\b"
+        "value": "^(playWEB)$"
       }
     },
     {
@@ -253,7 +283,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(PSiG)\\b"
+        "value": "^(PSiG)$"
       }
     },
     {
@@ -262,7 +292,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(ROCCaT)\\b"
+        "value": "^(ROCCaT)$"
       }
     },
     {
@@ -271,7 +301,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(RTFM)\\b"
+        "value": "^(RTFM)$"
       }
     },
     {
@@ -280,7 +310,16 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(SA89)\\b"
+        "value": "^(SA89)$"
+      }
+    },
+    {
+      "name": "SbR",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(SbR)$"
       }
     },
     {
@@ -289,7 +328,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(SDCC)\\b"
+        "value": "^(SDCC)$"
       }
     },
     {
@@ -298,7 +337,16 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(SIGMA)\\b"
+        "value": "^(SIGMA)$"
+      }
+    },
+    {
+      "name": "SMURF",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(SMURF)$"
       }
     },
     {
@@ -307,7 +355,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(SPiRiT)\\b"
+        "value": "^(SPiRiT)$"
       }
     },
     {
@@ -316,7 +364,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(TEPES)\\b"
+        "value": "^(TEPES)$"
       }
     },
     {
@@ -325,7 +373,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(TVSmash)\\b"
+        "value": "^(TVSmash)$"
       }
     },
     {
@@ -334,7 +382,16 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(WELP)\\b"
+        "value": "^(WELP)$"
+      }
+    },
+    {
+      "name": "XEBEC",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(XEBEC|4KBEC|CEBEX)$"
       }
     },
     {

@@ -1,6 +1,8 @@
 {
   "trash_id": "ed7f1e315e000aef424a58517fa48727",
-  "trash_score": "1300",
+  "trash_scores": {
+    "default": 1300
+  },
   "name": "Anime BD Tier 02 (SeaDex Muxers)",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
@@ -119,6 +121,15 @@
       "required": false,
       "fields": {
         "value": "\\[Crow\\]|-Crow\\b"
+      }
+    },
+    {
+      "name": "CsS",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(CsS)\\b"
       }
     },
     {
@@ -248,6 +259,15 @@
       }
     },
     {
+      "name": "MTBB",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(MTBB)\\b"
+      }
+    },
+    {
       "name": "Noyr",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
@@ -317,6 +337,15 @@
       "required": false,
       "fields": {
         "value": "\\[Smoke\\]|-Smoke\\b"
+      }
+    },
+    {
+      "name": "Spirale",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(Spirale)\\b"
       }
     },
     {

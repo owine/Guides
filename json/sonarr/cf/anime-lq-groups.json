@@ -1,6 +1,8 @@
 {
   "trash_id": "e3515e519f3b1360cbfc17651944354c",
-  "trash_score": "-10000",
+  "trash_scores": {
+    "default": -10000
+  },
   "name": "Anime LQ Groups",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
@@ -65,15 +67,6 @@
       "required": false,
       "fields": {
         "value": "\\b(AhmadDev)\\b"
-      }
-    },
-    {
-      "name": "Amb3r",
-      "implementation": "ReleaseTitleSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(Amb3r)\\b"
       }
     },
     {
@@ -533,6 +526,15 @@
       "required": false,
       "fields": {
         "value": "\\b(Kirion)\\b"
+      }
+    },
+    {
+      "name": "KQRM",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(KQRM)\\b"
       }
     },
     {
@@ -1112,15 +1114,6 @@
       }
     },
     {
-      "name": "VOSTFR",
-      "implementation": "ReleaseTitleSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(VOSTFR)\\b"
-      }
-    },
-    {
       "name": "Wardevil",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
@@ -1163,15 +1156,6 @@
       "required": false,
       "fields": {
         "value": "\\b(YakuboEncodes)\\b"
-      }
-    },
-    {
-      "name": "Yameii",
-      "implementation": "ReleaseTitleSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\[Yameii\\]|-Yameii\\b"
       }
     },
     {

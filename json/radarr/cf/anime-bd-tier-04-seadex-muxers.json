@@ -1,6 +1,8 @@
 {
   "trash_id": "f262f1299d99b1a2263375e8fa2ddbb3",
-  "trash_score": "1100",
+  "trash_scores": {
+    "default": 1100
+  },
   "name": "Anime BD Tier 04 (SeaDex Muxers)",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
@@ -347,15 +349,6 @@
       }
     },
     {
-      "name": "MTBB",
-      "implementation": "ReleaseTitleSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(MTBB)\\b"
-      }
-    },
-    {
       "name": "Commie",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
@@ -388,7 +381,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\[Tsundere\\]|-Tsundere\\b"
+        "value": "\\[Tsundere\\]|-Tsundere(?!-)\\b"
       }
     },
     {

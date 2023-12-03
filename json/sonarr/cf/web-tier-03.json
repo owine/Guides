@@ -1,16 +1,46 @@
 {
   "trash_id": "d84935abd3f8556dcd51d4f27e22d0a6",
-  "trash_score": "1600",
+  "trash_scores": {
+    "default": 1600,
+    "anime-sonarr": 150
+  },
   "name": "WEB Tier 03",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
+    {
+      "name": "DRACULA",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(DRACULA)$"
+      }
+    },
+    {
+      "name": "NINJACENTRAL",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(NINJACENTRAL)$"
+      }
+    },
     {
       "name": "SLiGNOME",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(SLiGNOME)\\b"
+        "value": "^(SLiGNOME)$"
+      }
+    },
+    {
+      "name": "SwAgLaNdEr",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(SwAgLaNdEr)$"
       }
     },
     {
@@ -19,7 +49,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(T4H)\\b"
+        "value": "^(T4H)$"
       }
     },
     {
@@ -28,7 +58,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(ViSiON)\\b"
+        "value": "^(ViSiON)$"
       }
     },
     {

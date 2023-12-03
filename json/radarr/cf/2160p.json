@@ -1,6 +1,12 @@
 {
   "trash_id": "fb392fb0d61a010ae38e49ceaa24a1ef",
-  "trash_score": "100",
+  "trash_scores": {
+    "default": 100,
+    "sqp-2": 151,
+    "sqp-3": 151,
+    "sqp-4": 151,
+    "sqp-5": 151
+  },
   "name": "2160p",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
@@ -11,33 +17,6 @@
       "required": true,
       "fields": {
         "value": 2160
-      }
-    },
-    {
-      "name": "HDR",
-      "implementation": "ReleaseTitleSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\bHDR(\\b|\\d)"
-      }
-    },
-    {
-      "name": "DV",
-      "implementation": "ReleaseTitleSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(dv|dovi|dolby[ .]?vision|DV[ .]HDR10|DV[ .]HLG|DV[ .]SDR)\\b"
-      }
-    },
-    {
-      "name": "HDR (undefined)",
-      "implementation": "ReleaseTitleSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(FraMeSToR|HQMUX)\\b"
       }
     }
   ]

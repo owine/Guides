@@ -1,6 +1,9 @@
 {
   "trash_id": "403816d65392c79236dcb6dd591aeda4",
-  "trash_score": "1650",
+  "trash_scores": {
+    "default": 1650,
+    "anime-radarr": 250
+  },
   "name": "WEB Tier 02",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
@@ -28,7 +31,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(dB)\\b"
+        "value": "^(dB)$"
       }
     },
     {
@@ -37,7 +40,16 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(Flights)\\b"
+        "value": "^(Flights)$"
+      }
+    },
+    {
+      "name": "Kitsune",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(Kitsune)$"
       }
     },
     {
@@ -46,7 +58,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(MiU)\\b"
+        "value": "^(MiU)$"
       }
     },
     {
@@ -55,7 +67,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(monkee)\\b"
+        "value": "^(monkee)$"
       }
     },
     {
@@ -64,7 +76,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(MZABI)\\b"
+        "value": "^(MZABI)$"
       }
     },
     {
@@ -73,7 +85,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(PHOENiX)\\b"
+        "value": "^(PHOENiX)$"
       }
     },
     {
@@ -82,7 +94,16 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(playWEB)\\b"
+        "value": "^(playWEB)$"
+      }
+    },
+    {
+      "name": "SbR",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(SbR)$"
       }
     },
     {
@@ -91,7 +112,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(SMURF)\\b"
+        "value": "^(SMURF)$"
       }
     },
     {
@@ -100,7 +121,16 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(TOMMY)\\b"
+        "value": "^(TOMMY)$"
+      }
+    },
+    {
+      "name": "XEBEC",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(XEBEC|4KBEC|CEBEX)$"
       }
     }
   ]

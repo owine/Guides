@@ -1,6 +1,10 @@
 {
   "trash_id": "c20c8647f2746a1f4c4262b0fbbeeeae",
-  "trash_score": "1750",
+  "trash_scores": {
+    "default": 1750,
+    "sqp-1-1080p": 1050,
+    "sqp-1-2160p": 1050
+  },
   "name": "HD Bluray Tier 02",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
@@ -37,7 +41,16 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(EA)\\b"
+        "value": "^(EA)$"
+      }
+    },
+    {
+      "name": "HiDt",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(HiDt)$"
       }
     },
     {
@@ -46,7 +59,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(HiSD)\\b"
+        "value": "^(HiSD)$"
       }
     },
     {
@@ -55,7 +68,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(iFT)\\b"
+        "value": "^(iFT)$"
       }
     },
     {
@@ -64,7 +77,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(NTb)\\b"
+        "value": "^(NTb)$"
       }
     },
     {
@@ -73,7 +86,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(QOQ)\\b"
+        "value": "^(QOQ)$"
       }
     },
     {
@@ -82,7 +95,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(SA89)\\b"
+        "value": "^(SA89)$"
       }
     },
     {
@@ -91,7 +104,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(sbR)\\b"
+        "value": "^(sbR)$"
       }
     }
   ]

@@ -1,6 +1,8 @@
 {
   "trash_id": "b6fbafa7942952a13e17e2b1152b539a",
-  "trash_score": "3000",
+  "trash_scores": {
+    "default": 3000
+  },
   "name": "ATMOS (undefined)",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
@@ -11,15 +13,6 @@
       "required": true,
       "fields": {
         "value": "\\bATMOS(\\b|\\d)"
-      }
-    },
-    {
-      "name": "Dolby Digital Plus",
-      "implementation": "ReleaseTitleSpecification",
-      "negate": true,
-      "required": true,
-      "fields": {
-        "value": "\\bDD[P+]|\\b(e[-_. ]?ac3)\\b"
       }
     },
     {
@@ -38,6 +31,15 @@
       "required": true,
       "fields": {
         "value": "\\bDD[^a-z+]|(?<!e)ac3"
+      }
+    },
+    {
+      "name": "Not Dolby Digital Plus",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": true,
+      "required": true,
+      "fields": {
+        "value": "\\bDD[P+]|\\b(e[-_. ]?ac3)\\b"
       }
     },
     {
